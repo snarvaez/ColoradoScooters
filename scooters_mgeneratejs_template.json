@@ -1,0 +1,6 @@
+{
+    "_id": { "$number": { "min": 1, "max": 1000000 }},
+    "location": { "$point": { "long_lim": [-109.015325, -102.101746], "lat_lim": [37.020691, 40.988098]}},
+    "is_reserved": "$bool",
+    "is_disabled": "$bool"
+}
